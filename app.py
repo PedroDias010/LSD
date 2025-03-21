@@ -1,14 +1,19 @@
+from http import HTTPStatus
+
 from fastapi import FastAPI
+
+from .schemas import Message  
+
 
 app = FastAPI()
 
-@app.get('/')
+@app.get('/', status_code=HTTPStatus.OK, response_model=message)
 def home():
     return {"message": "pedro dias"}
 
-@app.get('/teste')
-def home():
-    return {"message": "almoço"}
+
+
+
 
 
 
