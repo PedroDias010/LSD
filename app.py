@@ -1,17 +1,7 @@
-from http import HTTPStatus
-
 from fastapi import FastAPI
-
 
 app = FastAPI()
 
-@app.get('/', status_code=HTTPStatus.OK)
-def home():
-    return {"message":"pedro"}
-
-
-
-
-
-
-
+@app.get('/teste')
+def read_root():
+    return {'message': 'Olá Mundo!'}
