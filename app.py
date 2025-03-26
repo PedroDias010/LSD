@@ -1,7 +1,13 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, UploadFile, HTTPException
 
 app = FastAPI()
 
-@app.get('/teste')
-def read_root():
-    return {'message': 'Olá Mundo!'}
+@app.post("/extract/")
+def extract_fields(image: UploadFile | None = None):
+    if not image:
+        raise HTTPException(status_code=400, detail="Nenhuma imagem enviada")
+    return {"status": "Imagem recebida", "filename": image.filename, "fields": {}}
+
+@app.get("/extract/")
+def get_extract_info():
+    return {"message": "Use POST para enviar uma imagem"}
