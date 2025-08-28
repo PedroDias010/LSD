@@ -24,13 +24,13 @@ Uma aplicação inteligente que extrai automaticamente informações de document
 
 - Docker instalado
 - Docker Compose instalado
-- Chave API do Google Gemini AI
+- Chave API do Google Gemini AI (obtida através do [Google AI Studio](https://aistudio.google.com))
 
 ## 🚀 Como Executar
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/PedroDias010/LSD.git
+git clone <url-do-repositorio>
 cd LSD
 ```
 
@@ -39,6 +39,7 @@ Crie um arquivo .env na raiz do projeto:
 ```
 GEMINI_API_KEY=sua_chave_gemini_aqui
 ```
+Para obter a chave API do Gemini, acesse o [Google AI Studio](https://aistudio.google.com) e siga as instruções para gerar sua chave.
 
 ### 3. Execute a aplicação
 ```bash
