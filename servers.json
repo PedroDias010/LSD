@@ -1,0 +1,14 @@
+{
+    "Servers": {
+      "1": {
+        "Name": "PostgreSQL LSD",
+        "Group": "Servers",
+        "Host": "localhost",
+        "Port": 5432,
+        "MaintenanceDB": "mydatabase",
+        "Username": "myuser",
+        "Password": "mypassword",
+        "SSLMode": "prefer"
+      }
+    }
+  }
