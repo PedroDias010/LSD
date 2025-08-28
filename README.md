@@ -98,13 +98,13 @@ docker-compose restart
 ## 📷 Demonstração
 
 ### Interface da API
-![Interface da API](attachment://interface_api.png)
+![Interface da API](https://github.com/PedroDias010/LSD/blob/main/images/Captura%20de%20tela%202025-08-28%20135152.png)
 
 ### Resposta da API
-![Resposta da API](attachment://api_response.png)
+![Resposta da API](https://github.com/PedroDias010/LSD/blob/main/images/Captura%20de%20tela%202025-08-28%20135224.png)
 
 ### Consulta ao Banco de Dados
-![Consulta ao Banco de Dados](attachment://db_query.png)
+![Consulta ao Banco de Dados](https://github.com/PedroDias010/LSD/blob/main/images/Captura%20de%20tela%202025-08-28%20135121.png)
 
 ## 📝 Exemplo de Resposta da API
 ```json
