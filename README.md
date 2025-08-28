@@ -95,6 +95,17 @@ docker-compose down
 docker-compose restart
 ```
 
+## 📷 Demonstração
+
+### Interface da API
+![Interface da API](attachment://interface_api.png)
+
+### Resposta da API
+![Resposta da API](attachment://api_response.png)
+
+### Consulta ao Banco de Dados
+![Consulta ao Banco de Dados](attachment://db_query.png)
+
 ## 📝 Exemplo de Resposta da API
 ```json
 {
